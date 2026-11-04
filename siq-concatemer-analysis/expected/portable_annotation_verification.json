@@ -1,0 +1,18 @@
+{
+  "modify": {
+    "rows": 43532,
+    "columns": 30,
+    "all_fields_match_original": true,
+    "source_sha_verified": true,
+    "evaluable_deletion_reads": 1324059,
+    "unevaluable_deletion_reads": 6061
+  },
+  "inhibitor": {
+    "rows": 27771,
+    "columns": 30,
+    "all_fields_match_original": true,
+    "source_sha_verified": true,
+    "evaluable_deletion_reads": 902652,
+    "unevaluable_deletion_reads": 1428
+  }
+}

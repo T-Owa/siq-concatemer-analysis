@@ -1,0 +1,834 @@
+{
+  "datasets": [
+    {
+      "dataset": "modify",
+      "source_filename": "20261007_Modify0_SIQ(1).xlsx",
+      "source_sha256": "f533ec92c2237d67143e23ca51c5e21132658b460489f2b0912edc1e7283f78e",
+      "rawData_rows": 43532,
+      "n_samples": 60,
+      "total_reported_reads": 1992656,
+      "export_filename": "modify_events.csv.gz",
+      "export_sha256": "47174e1555fa4de080092eefdc2ceec3a3c4cf65683be2d96b32da213c8db93e",
+      "export_fields": [
+        "source_excel_row",
+        "Alias",
+        "Type",
+        "countEvents",
+        "Raw",
+        "delStart",
+        "delEnd",
+        "delSize",
+        "homology",
+        "homologyLength"
+      ],
+      "SIQRun": [
+        {
+          "Info": "SIQ Version",
+          "Value": 2.1
+        },
+        {
+          "Info": "Min support",
+          "Value": 2
+        },
+        {
+          "Info": "Max base error",
+          "Value": 0.08
+        },
+        {
+          "Info": "Max cpus",
+          "Value": 8
+        },
+        {
+          "Info": "TINS search distance",
+          "Value": 100
+        },
+        {
+          "Info": "Enable long-read analysis (PacBio/ONT)",
+          "Value": "false"
+        },
+        {
+          "Info": "Enable long-read analysis (PacBio/ONT)",
+          "Value": "false"
+        },
+        {
+          "Info": "Remerge files",
+          "Value": "false"
+        },
+        {
+          "Info": "Filter DELINS caused by multiple events",
+          "Value": "true"
+        }
+      ],
+      "runinfo_checked": [
+        {
+          "Alias": "Acryd-12h-1",
+          "bases_pastprimer": 0,
+          "left_flank": "AGAAAAAGGCTGGGCATGGT",
+          "right_flank": "CCTGACCTCTCCCTCTACCC"
+        },
+        {
+          "Alias": "Acryd-12h-2",
+          "bases_pastprimer": 0,
+          "left_flank": "AGAAAAAGGCTGGGCATGGT",
+          "right_flank": "CCTGACCTCTCCCTCTACCC"
+        },
+        {
+          "Alias": "Acryd-12h-3",
+          "bases_pastprimer": 0,
+          "left_flank": "AGAAAAAGGCTGGGCATGGT",
+          "right_flank": "CCTGACCTCTCCCTCTACCC"
+        },
+        {
+          "Alias": "Acryd-24h-1",
+          "bases_pastprimer": 0,
+          "left_flank": "AGAAAAAGGCTGGGCATGGT",
+          "right_flank": "CCTGACCTCTCCCTCTACCC"
+        },
+        {
+          "Alias": "Acryd-24h-2",
+          "bases_pastprimer": 0,
+          "left_flank": "AGAAAAAGGCTGGGCATGGT",
+          "right_flank": "CCTGACCTCTCCCTCTACCC"
+        },
+        {
+          "Alias": "Acryd-24h-3",
+          "bases_pastprimer": 0,
+          "left_flank": "AGAAAAAGGCTGGGCATGGT",
+          "right_flank": "CCTGACCTCTCCCTCTACCC"
+        },
+        {
+          "Alias": "AmMC6-12h-1",
+          "bases_pastprimer": 0,
+          "left_flank": "AGAAAAAGGCTGGGCATGGT",
+          "right_flank": "CCTGACCTCTCCCTCTACCC"
+        },
+        {
+          "Alias": "AmMC6-12h-2",
+          "bases_pastprimer": 0,
+          "left_flank": "AGAAAAAGGCTGGGCATGGT",
+          "right_flank": "CCTGACCTCTCCCTCTACCC"
+        },
+        {
+          "Alias": "AmMC6-12h-3",
+          "bases_pastprimer": 0,
+          "left_flank": "AGAAAAAGGCTGGGCATGGT",
+          "right_flank": "CCTGACCTCTCCCTCTACCC"
+        },
+        {
+          "Alias": "AmMC6-24h-1",
+          "bases_pastprimer": 0,
+          "left_flank": "AGAAAAAGGCTGGGCATGGT",
+          "right_flank": "CCTGACCTCTCCCTCTACCC"
+        },
+        {
+          "Alias": "AmMC6-24h-2",
+          "bases_pastprimer": 0,
+          "left_flank": "AGAAAAAGGCTGGGCATGGT",
+          "right_flank": "CCTGACCTCTCCCTCTACCC"
+        },
+        {
+          "Alias": "AmMC6-24h-3",
+          "bases_pastprimer": 0,
+          "left_flank": "AGAAAAAGGCTGGGCATGGT",
+          "right_flank": "CCTGACCTCTCCCTCTACCC"
+        },
+        {
+          "Alias": "AzideN-12h-1",
+          "bases_pastprimer": 0,
+          "left_flank": "AGAAAAAGGCTGGGCATGGT",
+          "right_flank": "CCTGACCTCTCCCTCTACCC"
+        },
+        {
+          "Alias": "AzideN-12h-2",
+          "bases_pastprimer": 0,
+          "left_flank": "AGAAAAAGGCTGGGCATGGT",
+          "right_flank": "CCTGACCTCTCCCTCTACCC"
+        },
+        {
+          "Alias": "AzideN-12h-3",
+          "bases_pastprimer": 0,
+          "left_flank": "AGAAAAAGGCTGGGCATGGT",
+          "right_flank": "CCTGACCTCTCCCTCTACCC"
+        },
+        {
+          "Alias": "AzideN-24h-1",
+          "bases_pastprimer": 0,
+          "left_flank": "AGAAAAAGGCTGGGCATGGT",
+          "right_flank": "CCTGACCTCTCCCTCTACCC"
+        },
+        {
+          "Alias": "AzideN-24h-2",
+          "bases_pastprimer": 0,
+          "left_flank": "AGAAAAAGGCTGGGCATGGT",
+          "right_flank": "CCTGACCTCTCCCTCTACCC"
+        },
+        {
+          "Alias": "AzideN-24h-3",
+          "bases_pastprimer": 0,
+          "left_flank": "AGAAAAAGGCTGGGCATGGT",
+          "right_flank": "CCTGACCTCTCCCTCTACCC"
+        },
+        {
+          "Alias": "Bio-12h-1",
+          "bases_pastprimer": 0,
+          "left_flank": "AGAAAAAGGCTGGGCATGGT",
+          "right_flank": "CCTGACCTCTCCCTCTACCC"
+        },
+        {
+          "Alias": "Bio-12h-2",
+          "bases_pastprimer": 0,
+          "left_flank": "AGAAAAAGGCTGGGCATGGT",
+          "right_flank": "CCTGACCTCTCCCTCTACCC"
+        },
+        {
+          "Alias": "Bio-12h-3",
+          "bases_pastprimer": 0,
+          "left_flank": "AGAAAAAGGCTGGGCATGGT",
+          "right_flank": "CCTGACCTCTCCCTCTACCC"
+        },
+        {
+          "Alias": "Bio-24h-1",
+          "bases_pastprimer": 0,
+          "left_flank": "AGAAAAAGGCTGGGCATGGT",
+          "right_flank": "CCTGACCTCTCCCTCTACCC"
+        },
+        {
+          "Alias": "Bio-24h-2",
+          "bases_pastprimer": 0,
+          "left_flank": "AGAAAAAGGCTGGGCATGGT",
+          "right_flank": "CCTGACCTCTCCCTCTACCC"
+        },
+        {
+          "Alias": "Bio-24h-3",
+          "bases_pastprimer": 0,
+          "left_flank": "AGAAAAAGGCTGGGCATGGT",
+          "right_flank": "CCTGACCTCTCCCTCTACCC"
+        },
+        {
+          "Alias": "Cy5-12h-1",
+          "bases_pastprimer": 0,
+          "left_flank": "AGAAAAAGGCTGGGCATGGT",
+          "right_flank": "CCTGACCTCTCCCTCTACCC"
+        },
+        {
+          "Alias": "Cy5-12h-2",
+          "bases_pastprimer": 0,
+          "left_flank": "AGAAAAAGGCTGGGCATGGT",
+          "right_flank": "CCTGACCTCTCCCTCTACCC"
+        },
+        {
+          "Alias": "Cy5-12h-3",
+          "bases_pastprimer": 0,
+          "left_flank": "AGAAAAAGGCTGGGCATGGT",
+          "right_flank": "CCTGACCTCTCCCTCTACCC"
+        },
+        {
+          "Alias": "Cy5-24h-1",
+          "bases_pastprimer": 0,
+          "left_flank": "AGAAAAAGGCTGGGCATGGT",
+          "right_flank": "CCTGACCTCTCCCTCTACCC"
+        },
+        {
+          "Alias": "Cy5-24h-2",
+          "bases_pastprimer": 0,
+          "left_flank": "AGAAAAAGGCTGGGCATGGT",
+          "right_flank": "CCTGACCTCTCCCTCTACCC"
+        },
+        {
+          "Alias": "Cy5-24h-3",
+          "bases_pastprimer": 0,
+          "left_flank": "AGAAAAAGGCTGGGCATGGT",
+          "right_flank": "CCTGACCTCTCCCTCTACCC"
+        },
+        {
+          "Alias": "ds-12h-1",
+          "bases_pastprimer": 0,
+          "left_flank": "AGAAAAAGGCTGGGCATGGT",
+          "right_flank": "CCTGACCTCTCCCTCTACCC"
+        },
+        {
+          "Alias": "ds-12h-2",
+          "bases_pastprimer": 0,
+          "left_flank": "AGAAAAAGGCTGGGCATGGT",
+          "right_flank": "CCTGACCTCTCCCTCTACCC"
+        },
+        {
+          "Alias": "ds-12h-3",
+          "bases_pastprimer": 0,
+          "left_flank": "AGAAAAAGGCTGGGCATGGT",
+          "right_flank": "CCTGACCTCTCCCTCTACCC"
+        },
+        {
+          "Alias": "ds-24h-1",
+          "bases_pastprimer": 0,
+          "left_flank": "AGAAAAAGGCTGGGCATGGT",
+          "right_flank": "CCTGACCTCTCCCTCTACCC"
+        },
+        {
+          "Alias": "ds-24h-2",
+          "bases_pastprimer": 0,
+          "left_flank": "AGAAAAAGGCTGGGCATGGT",
+          "right_flank": "CCTGACCTCTCCCTCTACCC"
+        },
+        {
+          "Alias": "ds-24h-3",
+          "bases_pastprimer": 0,
+          "left_flank": "AGAAAAAGGCTGGGCATGGT",
+          "right_flank": "CCTGACCTCTCCCTCTACCC"
+        },
+        {
+          "Alias": "dsp-12h-1",
+          "bases_pastprimer": 0,
+          "left_flank": "AGAAAAAGGCTGGGCATGGT",
+          "right_flank": "CCTGACCTCTCCCTCTACCC"
+        },
+        {
+          "Alias": "dsp-12h-2",
+          "bases_pastprimer": 0,
+          "left_flank": "AGAAAAAGGCTGGGCATGGT",
+          "right_flank": "CCTGACCTCTCCCTCTACCC"
+        },
+        {
+          "Alias": "dsp-12h-3",
+          "bases_pastprimer": 0,
+          "left_flank": "AGAAAAAGGCTGGGCATGGT",
+          "right_flank": "CCTGACCTCTCCCTCTACCC"
+        },
+        {
+          "Alias": "dsp-24h-1",
+          "bases_pastprimer": 0,
+          "left_flank": "AGAAAAAGGCTGGGCATGGT",
+          "right_flank": "CCTGACCTCTCCCTCTACCC"
+        },
+        {
+          "Alias": "dsp-24h-2",
+          "bases_pastprimer": 0,
+          "left_flank": "AGAAAAAGGCTGGGCATGGT",
+          "right_flank": "CCTGACCTCTCCCTCTACCC"
+        },
+        {
+          "Alias": "dsp-24h-3",
+          "bases_pastprimer": 0,
+          "left_flank": "AGAAAAAGGCTGGGCATGGT",
+          "right_flank": "CCTGACCTCTCCCTCTACCC"
+        },
+        {
+          "Alias": "InvddT-12h-1",
+          "bases_pastprimer": 0,
+          "left_flank": "AGAAAAAGGCTGGGCATGGT",
+          "right_flank": "CCTGACCTCTCCCTCTACCC"
+        },
+        {
+          "Alias": "InvddT-12h-2",
+          "bases_pastprimer": 0,
+          "left_flank": "AGAAAAAGGCTGGGCATGGT",
+          "right_flank": "CCTGACCTCTCCCTCTACCC"
+        },
+        {
+          "Alias": "InvddT-12h-3",
+          "bases_pastprimer": 0,
+          "left_flank": "AGAAAAAGGCTGGGCATGGT",
+          "right_flank": "CCTGACCTCTCCCTCTACCC"
+        },
+        {
+          "Alias": "InvddT-24h-1",
+          "bases_pastprimer": 0,
+          "left_flank": "AGAAAAAGGCTGGGCATGGT",
+          "right_flank": "CCTGACCTCTCCCTCTACCC"
+        },
+        {
+          "Alias": "InvddT-24h-2",
+          "bases_pastprimer": 0,
+          "left_flank": "AGAAAAAGGCTGGGCATGGT",
+          "right_flank": "CCTGACCTCTCCCTCTACCC"
+        },
+        {
+          "Alias": "InvddT-24h-3",
+          "bases_pastprimer": 0,
+          "left_flank": "AGAAAAAGGCTGGGCATGGT",
+          "right_flank": "CCTGACCTCTCCCTCTACCC"
+        },
+        {
+          "Alias": "phos-12h-1",
+          "bases_pastprimer": 0,
+          "left_flank": "AGAAAAAGGCTGGGCATGGT",
+          "right_flank": "CCTGACCTCTCCCTCTACCC"
+        },
+        {
+          "Alias": "phos-12h-2",
+          "bases_pastprimer": 0,
+          "left_flank": "AGAAAAAGGCTGGGCATGGT",
+          "right_flank": "CCTGACCTCTCCCTCTACCC"
+        },
+        {
+          "Alias": "phos-12h-3",
+          "bases_pastprimer": 0,
+          "left_flank": "AGAAAAAGGCTGGGCATGGT",
+          "right_flank": "CCTGACCTCTCCCTCTACCC"
+        },
+        {
+          "Alias": "phos-24h-1",
+          "bases_pastprimer": 0,
+          "left_flank": "AGAAAAAGGCTGGGCATGGT",
+          "right_flank": "CCTGACCTCTCCCTCTACCC"
+        },
+        {
+          "Alias": "phos-24h-2",
+          "bases_pastprimer": 0,
+          "left_flank": "AGAAAAAGGCTGGGCATGGT",
+          "right_flank": "CCTGACCTCTCCCTCTACCC"
+        },
+        {
+          "Alias": "phos-24h-3",
+          "bases_pastprimer": 0,
+          "left_flank": "AGAAAAAGGCTGGGCATGGT",
+          "right_flank": "CCTGACCTCTCCCTCTACCC"
+        },
+        {
+          "Alias": "sp18-12h-1",
+          "bases_pastprimer": 0,
+          "left_flank": "AGAAAAAGGCTGGGCATGGT",
+          "right_flank": "CCTGACCTCTCCCTCTACCC"
+        },
+        {
+          "Alias": "sp18-12h-2",
+          "bases_pastprimer": 0,
+          "left_flank": "AGAAAAAGGCTGGGCATGGT",
+          "right_flank": "CCTGACCTCTCCCTCTACCC"
+        },
+        {
+          "Alias": "sp18-12h-3",
+          "bases_pastprimer": 0,
+          "left_flank": "AGAAAAAGGCTGGGCATGGT",
+          "right_flank": "CCTGACCTCTCCCTCTACCC"
+        },
+        {
+          "Alias": "sp18-24h-1",
+          "bases_pastprimer": 0,
+          "left_flank": "AGAAAAAGGCTGGGCATGGT",
+          "right_flank": "CCTGACCTCTCCCTCTACCC"
+        },
+        {
+          "Alias": "sp18-24h-2",
+          "bases_pastprimer": 0,
+          "left_flank": "AGAAAAAGGCTGGGCATGGT",
+          "right_flank": "CCTGACCTCTCCCTCTACCC"
+        },
+        {
+          "Alias": "sp18-24h-3",
+          "bases_pastprimer": 0,
+          "left_flank": "AGAAAAAGGCTGGGCATGGT",
+          "right_flank": "CCTGACCTCTCCCTCTACCC"
+        }
+      ],
+      "config": {
+        "reference_name": "donor_HT_196bp",
+        "reference_sequence": "AACTCCAGAGGTTGAGGCAGGGGGATGGCTTGAGCCCAGGAGTTCAAGGCTGCAGTGAGCTGTGATTGTGCCACTGCCCTCCAGCCTGGGTAATAGAGCAAGACTGTCTCTTTAGAAGAAAAAGGCTGGGCATGGTCCTGACCTCTCCCTCTACCCATCCTCTGACCTCCTGCCAGTACCCTTCCACCATTGGCCA",
+        "junction_index": 136,
+        "left_primer": "AACTCCAGAGGTTGAGGCAG",
+        "right_primer": "TGGCCAATGGTGGAAGGGTA",
+        "expected_bases_pastprimer": 0,
+        "description": "196 bp ideal Head-to-Tail amplicon from the supplied 825 bp donor. Junction is between reference bases 136 and 137 (1-based); coordinates in analysis are 0-based half-open."
+      },
+      "config_sha256": "aab98b078777734238ee016cfe5c5dd87f012f05f7f994e7a5082c5e1cca7812",
+      "export_policy": "All rawData rows, including zero-count rows. Only the listed required analysis columns are retained. Original file paths are omitted."
+    },
+    {
+      "dataset": "inhibitor",
+      "source_filename": "20261017_093310_SIQ_Inhibitor.xlsx",
+      "source_sha256": "b31593cad994fdc99016fcda01f0f76bc1638f9298f9168ad5a035d8a7f41d80",
+      "rawData_rows": 27771,
+      "n_samples": 54,
+      "total_reported_reads": 1997053,
+      "export_filename": "inhibitor_events.csv.gz",
+      "export_sha256": "fb815dc61879d72dcfd6b8425af8ad779e555b3f604b03d03856f1cf76f125d8",
+      "export_fields": [
+        "source_excel_row",
+        "Alias",
+        "Type",
+        "countEvents",
+        "Raw",
+        "delStart",
+        "delEnd",
+        "delSize",
+        "homology",
+        "homologyLength"
+      ],
+      "SIQRun": [
+        {
+          "Info": "SIQ Version",
+          "Value": 2.1
+        },
+        {
+          "Info": "Min support",
+          "Value": 2.0
+        },
+        {
+          "Info": "Max base error",
+          "Value": 0.08
+        },
+        {
+          "Info": "Max cpus",
+          "Value": 8.0
+        },
+        {
+          "Info": "TINS search distance",
+          "Value": 100.0
+        },
+        {
+          "Info": "Enable long-read analysis (PacBio/ONT)",
+          "Value": "false"
+        },
+        {
+          "Info": "Enable long-read analysis (PacBio/ONT)",
+          "Value": "false"
+        },
+        {
+          "Info": "Remerge files",
+          "Value": "false"
+        },
+        {
+          "Info": "Filter DELINS caused by multiple events",
+          "Value": "true"
+        }
+      ],
+      "runinfo_checked": [
+        {
+          "Alias": "12h-ART558-1",
+          "bases_pastprimer": 0,
+          "left_flank": "AGAAAAAGGCTGGGCATGGT",
+          "right_flank": "CCTGACCTCTCCCTCTACCC"
+        },
+        {
+          "Alias": "12h-ART558-2",
+          "bases_pastprimer": 0,
+          "left_flank": "AGAAAAAGGCTGGGCATGGT",
+          "right_flank": "CCTGACCTCTCCCTCTACCC"
+        },
+        {
+          "Alias": "12h-ART558-3",
+          "bases_pastprimer": 0,
+          "left_flank": "AGAAAAAGGCTGGGCATGGT",
+          "right_flank": "CCTGACCTCTCCCTCTACCC"
+        },
+        {
+          "Alias": "12h-AZD7648-1",
+          "bases_pastprimer": 0,
+          "left_flank": "AGAAAAAGGCTGGGCATGGT",
+          "right_flank": "CCTGACCTCTCCCTCTACCC"
+        },
+        {
+          "Alias": "12h-AZD7648-2",
+          "bases_pastprimer": 0,
+          "left_flank": "AGAAAAAGGCTGGGCATGGT",
+          "right_flank": "CCTGACCTCTCCCTCTACCC"
+        },
+        {
+          "Alias": "12h-AZD7648-3",
+          "bases_pastprimer": 0,
+          "left_flank": "AGAAAAAGGCTGGGCATGGT",
+          "right_flank": "CCTGACCTCTCCCTCTACCC"
+        },
+        {
+          "Alias": "12h-B02-1",
+          "bases_pastprimer": 0,
+          "left_flank": "AGAAAAAGGCTGGGCATGGT",
+          "right_flank": "CCTGACCTCTCCCTCTACCC"
+        },
+        {
+          "Alias": "12h-B02-2",
+          "bases_pastprimer": 0,
+          "left_flank": "AGAAAAAGGCTGGGCATGGT",
+          "right_flank": "CCTGACCTCTCCCTCTACCC"
+        },
+        {
+          "Alias": "12h-B02-3",
+          "bases_pastprimer": 0,
+          "left_flank": "AGAAAAAGGCTGGGCATGGT",
+          "right_flank": "CCTGACCTCTCCCTCTACCC"
+        },
+        {
+          "Alias": "12h-Bractppin-1",
+          "bases_pastprimer": 0,
+          "left_flank": "AGAAAAAGGCTGGGCATGGT",
+          "right_flank": "CCTGACCTCTCCCTCTACCC"
+        },
+        {
+          "Alias": "12h-Bractppin-2",
+          "bases_pastprimer": 0,
+          "left_flank": "AGAAAAAGGCTGGGCATGGT",
+          "right_flank": "CCTGACCTCTCCCTCTACCC"
+        },
+        {
+          "Alias": "12h-Bractppin-3",
+          "bases_pastprimer": 0,
+          "left_flank": "AGAAAAAGGCTGGGCATGGT",
+          "right_flank": "CCTGACCTCTCCCTCTACCC"
+        },
+        {
+          "Alias": "12h-CAM833-1",
+          "bases_pastprimer": 0,
+          "left_flank": "AGAAAAAGGCTGGGCATGGT",
+          "right_flank": "CCTGACCTCTCCCTCTACCC"
+        },
+        {
+          "Alias": "12h-CAM833-2",
+          "bases_pastprimer": 0,
+          "left_flank": "AGAAAAAGGCTGGGCATGGT",
+          "right_flank": "CCTGACCTCTCCCTCTACCC"
+        },
+        {
+          "Alias": "12h-CAM833-3",
+          "bases_pastprimer": 0,
+          "left_flank": "AGAAAAAGGCTGGGCATGGT",
+          "right_flank": "CCTGACCTCTCCCTCTACCC"
+        },
+        {
+          "Alias": "12h-DI03-1",
+          "bases_pastprimer": 0,
+          "left_flank": "AGAAAAAGGCTGGGCATGGT",
+          "right_flank": "CCTGACCTCTCCCTCTACCC"
+        },
+        {
+          "Alias": "12h-DI03-2",
+          "bases_pastprimer": 0,
+          "left_flank": "AGAAAAAGGCTGGGCATGGT",
+          "right_flank": "CCTGACCTCTCCCTCTACCC"
+        },
+        {
+          "Alias": "12h-DI03-3",
+          "bases_pastprimer": 0,
+          "left_flank": "AGAAAAAGGCTGGGCATGGT",
+          "right_flank": "CCTGACCTCTCCCTCTACCC"
+        },
+        {
+          "Alias": "12h-DMSO-1",
+          "bases_pastprimer": 0,
+          "left_flank": "AGAAAAAGGCTGGGCATGGT",
+          "right_flank": "CCTGACCTCTCCCTCTACCC"
+        },
+        {
+          "Alias": "12h-DMSO-2",
+          "bases_pastprimer": 0,
+          "left_flank": "AGAAAAAGGCTGGGCATGGT",
+          "right_flank": "CCTGACCTCTCCCTCTACCC"
+        },
+        {
+          "Alias": "12h-DMSO-3",
+          "bases_pastprimer": 0,
+          "left_flank": "AGAAAAAGGCTGGGCATGGT",
+          "right_flank": "CCTGACCTCTCCCTCTACCC"
+        },
+        {
+          "Alias": "12h-Mirin-1",
+          "bases_pastprimer": 0,
+          "left_flank": "AGAAAAAGGCTGGGCATGGT",
+          "right_flank": "CCTGACCTCTCCCTCTACCC"
+        },
+        {
+          "Alias": "12h-Mirin-2",
+          "bases_pastprimer": 0,
+          "left_flank": "AGAAAAAGGCTGGGCATGGT",
+          "right_flank": "CCTGACCTCTCCCTCTACCC"
+        },
+        {
+          "Alias": "12h-Mirin-3",
+          "bases_pastprimer": 0,
+          "left_flank": "AGAAAAAGGCTGGGCATGGT",
+          "right_flank": "CCTGACCTCTCCCTCTACCC"
+        },
+        {
+          "Alias": "12h-Olaparib-1",
+          "bases_pastprimer": 0,
+          "left_flank": "AGAAAAAGGCTGGGCATGGT",
+          "right_flank": "CCTGACCTCTCCCTCTACCC"
+        },
+        {
+          "Alias": "12h-Olaparib-2",
+          "bases_pastprimer": 0,
+          "left_flank": "AGAAAAAGGCTGGGCATGGT",
+          "right_flank": "CCTGACCTCTCCCTCTACCC"
+        },
+        {
+          "Alias": "12h-Olaparib-3",
+          "bases_pastprimer": 0,
+          "left_flank": "AGAAAAAGGCTGGGCATGGT",
+          "right_flank": "CCTGACCTCTCCCTCTACCC"
+        },
+        {
+          "Alias": "24h-ART558-1",
+          "bases_pastprimer": 0,
+          "left_flank": "AGAAAAAGGCTGGGCATGGT",
+          "right_flank": "CCTGACCTCTCCCTCTACCC"
+        },
+        {
+          "Alias": "24h-ART558-2",
+          "bases_pastprimer": 0,
+          "left_flank": "AGAAAAAGGCTGGGCATGGT",
+          "right_flank": "CCTGACCTCTCCCTCTACCC"
+        },
+        {
+          "Alias": "24h-ART558-3",
+          "bases_pastprimer": 0,
+          "left_flank": "AGAAAAAGGCTGGGCATGGT",
+          "right_flank": "CCTGACCTCTCCCTCTACCC"
+        },
+        {
+          "Alias": "24h-AZD7648-1",
+          "bases_pastprimer": 0,
+          "left_flank": "AGAAAAAGGCTGGGCATGGT",
+          "right_flank": "CCTGACCTCTCCCTCTACCC"
+        },
+        {
+          "Alias": "24h-AZD7648-2",
+          "bases_pastprimer": 0,
+          "left_flank": "AGAAAAAGGCTGGGCATGGT",
+          "right_flank": "CCTGACCTCTCCCTCTACCC"
+        },
+        {
+          "Alias": "24h-AZD7648-3",
+          "bases_pastprimer": 0,
+          "left_flank": "AGAAAAAGGCTGGGCATGGT",
+          "right_flank": "CCTGACCTCTCCCTCTACCC"
+        },
+        {
+          "Alias": "24h-B02-1",
+          "bases_pastprimer": 0,
+          "left_flank": "AGAAAAAGGCTGGGCATGGT",
+          "right_flank": "CCTGACCTCTCCCTCTACCC"
+        },
+        {
+          "Alias": "24h-B02-2",
+          "bases_pastprimer": 0,
+          "left_flank": "AGAAAAAGGCTGGGCATGGT",
+          "right_flank": "CCTGACCTCTCCCTCTACCC"
+        },
+        {
+          "Alias": "24h-B02-3",
+          "bases_pastprimer": 0,
+          "left_flank": "AGAAAAAGGCTGGGCATGGT",
+          "right_flank": "CCTGACCTCTCCCTCTACCC"
+        },
+        {
+          "Alias": "24h-Bractppin-1",
+          "bases_pastprimer": 0,
+          "left_flank": "AGAAAAAGGCTGGGCATGGT",
+          "right_flank": "CCTGACCTCTCCCTCTACCC"
+        },
+        {
+          "Alias": "24h-Bractppin-2",
+          "bases_pastprimer": 0,
+          "left_flank": "AGAAAAAGGCTGGGCATGGT",
+          "right_flank": "CCTGACCTCTCCCTCTACCC"
+        },
+        {
+          "Alias": "24h-Bractppin-3",
+          "bases_pastprimer": 0,
+          "left_flank": "AGAAAAAGGCTGGGCATGGT",
+          "right_flank": "CCTGACCTCTCCCTCTACCC"
+        },
+        {
+          "Alias": "24h-CAM833-1",
+          "bases_pastprimer": 0,
+          "left_flank": "AGAAAAAGGCTGGGCATGGT",
+          "right_flank": "CCTGACCTCTCCCTCTACCC"
+        },
+        {
+          "Alias": "24h-CAM833-2",
+          "bases_pastprimer": 0,
+          "left_flank": "AGAAAAAGGCTGGGCATGGT",
+          "right_flank": "CCTGACCTCTCCCTCTACCC"
+        },
+        {
+          "Alias": "24h-CAM833-3",
+          "bases_pastprimer": 0,
+          "left_flank": "AGAAAAAGGCTGGGCATGGT",
+          "right_flank": "CCTGACCTCTCCCTCTACCC"
+        },
+        {
+          "Alias": "24h-DI03-1",
+          "bases_pastprimer": 0,
+          "left_flank": "AGAAAAAGGCTGGGCATGGT",
+          "right_flank": "CCTGACCTCTCCCTCTACCC"
+        },
+        {
+          "Alias": "24h-DI03-2",
+          "bases_pastprimer": 0,
+          "left_flank": "AGAAAAAGGCTGGGCATGGT",
+          "right_flank": "CCTGACCTCTCCCTCTACCC"
+        },
+        {
+          "Alias": "24h-DI03-3",
+          "bases_pastprimer": 0,
+          "left_flank": "AGAAAAAGGCTGGGCATGGT",
+          "right_flank": "CCTGACCTCTCCCTCTACCC"
+        },
+        {
+          "Alias": "24h-DMSO-1",
+          "bases_pastprimer": 0,
+          "left_flank": "AGAAAAAGGCTGGGCATGGT",
+          "right_flank": "CCTGACCTCTCCCTCTACCC"
+        },
+        {
+          "Alias": "24h-DMSO-2",
+          "bases_pastprimer": 0,
+          "left_flank": "AGAAAAAGGCTGGGCATGGT",
+          "right_flank": "CCTGACCTCTCCCTCTACCC"
+        },
+        {
+          "Alias": "24h-DMSO-3",
+          "bases_pastprimer": 0,
+          "left_flank": "AGAAAAAGGCTGGGCATGGT",
+          "right_flank": "CCTGACCTCTCCCTCTACCC"
+        },
+        {
+          "Alias": "24h-Mirin-1",
+          "bases_pastprimer": 0,
+          "left_flank": "AGAAAAAGGCTGGGCATGGT",
+          "right_flank": "CCTGACCTCTCCCTCTACCC"
+        },
+        {
+          "Alias": "24h-Mirin-2",
+          "bases_pastprimer": 0,
+          "left_flank": "AGAAAAAGGCTGGGCATGGT",
+          "right_flank": "CCTGACCTCTCCCTCTACCC"
+        },
+        {
+          "Alias": "24h-Mirin-3",
+          "bases_pastprimer": 0,
+          "left_flank": "AGAAAAAGGCTGGGCATGGT",
+          "right_flank": "CCTGACCTCTCCCTCTACCC"
+        },
+        {
+          "Alias": "24h-Olaparib-1",
+          "bases_pastprimer": 0,
+          "left_flank": "AGAAAAAGGCTGGGCATGGT",
+          "right_flank": "CCTGACCTCTCCCTCTACCC"
+        },
+        {
+          "Alias": "24h-Olaparib-2",
+          "bases_pastprimer": 0,
+          "left_flank": "AGAAAAAGGCTGGGCATGGT",
+          "right_flank": "CCTGACCTCTCCCTCTACCC"
+        },
+        {
+          "Alias": "24h-Olaparib-3",
+          "bases_pastprimer": 0,
+          "left_flank": "AGAAAAAGGCTGGGCATGGT",
+          "right_flank": "CCTGACCTCTCCCTCTACCC"
+        }
+      ],
+      "config": {
+        "reference_name": "donor_HT_196bp",
+        "reference_sequence": "AACTCCAGAGGTTGAGGCAGGGGGATGGCTTGAGCCCAGGAGTTCAAGGCTGCAGTGAGCTGTGATTGTGCCACTGCCCTCCAGCCTGGGTAATAGAGCAAGACTGTCTCTTTAGAAGAAAAAGGCTGGGCATGGTCCTGACCTCTCCCTCTACCCATCCTCTGACCTCCTGCCAGTACCCTTCCACCATTGGCCA",
+        "junction_index": 136,
+        "left_primer": "AACTCCAGAGGTTGAGGCAG",
+        "right_primer": "TGGCCAATGGTGGAAGGGTA",
+        "expected_bases_pastprimer": 0,
+        "description": "196 bp ideal Head-to-Tail amplicon from the supplied 825 bp donor. Junction is between reference bases 136 and 137 (1-based); coordinates in analysis are 0-based half-open."
+      },
+      "config_sha256": "aab98b078777734238ee016cfe5c5dd87f012f05f7f994e7a5082c5e1cca7812",
+      "export_policy": "All rawData rows, including zero-count rows. Only the listed required analysis columns are retained. Original file paths are omitted."
+    }
+  ]
+}

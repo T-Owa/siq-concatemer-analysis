@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "Please cite the version of this analysis package used for your results."
+type: software
+title: "SIQ concatemer junction analysis"
+version: 0.1.0
+authors:
+  - family-names: Owa
+    given-names: Tomoo
+    affiliation: "National Center of Neurology and Psychiatry"
+abstract: "Custom downstream analysis of SIQ event tables for donor concatemer junctions, including microhomology candidates and deletion patterns."
+license: MIT
+keywords:
+  - SIQ
+  - concatemer
+  - microhomology
+  - deletion
