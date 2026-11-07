@@ -1,9 +1,0 @@
-{
-  "reference_name": "donor_HT_196bp",
-  "reference_sequence": "AACTCCAGAGGTTGAGGCAGGGGGATGGCTTGAGCCCAGGAGTTCAAGGCTGCAGTGAGCTGTGATTGTGCCACTGCCCTCCAGCCTGGGTAATAGAGCAAGACTGTCTCTTTAGAAGAAAAAGGCTGGGCATGGTCCTGACCTCTCCCTCTACCCATCCTCTGACCTCCTGCCAGTACCCTTCCACCATTGGCCA",
-  "junction_index": 136,
-  "left_primer": "AACTCCAGAGGTTGAGGCAG",
-  "right_primer": "TGGCCAATGGTGGAAGGGTA",
-  "expected_bases_pastprimer": 0,
-  "description": "196 bp ideal Head-to-Tail amplicon from the supplied 825 bp donor. Junction is between reference bases 136 and 137 (1-based); coordinates in analysis are 0-based half-open."
-}

@@ -1,6 +1,0 @@
-# Optional: Excel import and static figure export.
-# These pinned versions require Python >=3.11; tested with Python 3.12.14.
-# Bundled CSV analysis and unit tests use only the Python standard library.
-openpyxl==3.1.5
-matplotlib==3.10.8
-numpy==2.3.5
