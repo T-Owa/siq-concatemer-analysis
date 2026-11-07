@@ -1,0 +1,36 @@
+{
+  "status": "passed",
+  "reference_length": 196,
+  "datasets": {
+    "modify": {
+      "input_sha256": "f533ec92c2237d67143e23ca51c5e21132658b460489f2b0912edc1e7283f78e",
+      "rawData_rows": 43532,
+      "samples": 60,
+      "pure_deletion_reads": 1330120,
+      "evaluable_deletion_reads": 1324059,
+      "unevaluable_deletion_reads": 6061,
+      "maximum_observed_MH": 5
+    },
+    "inhibitor": {
+      "input_sha256": "b31593cad994fdc99016fcda01f0f76bc1638f9298f9168ad5a035d8a7f41d80",
+      "rawData_rows": 27771,
+      "samples": 54,
+      "pure_deletion_reads": 904080,
+      "evaluable_deletion_reads": 902652,
+      "unevaluable_deletion_reads": 1428,
+      "maximum_observed_MH": 5
+    }
+  },
+  "length_top5": {
+    "source_event_rows": 720,
+    "patterns": 17,
+    "sample_denominators": 120,
+    "sample_pattern_rows": 1020,
+    "group_pattern_rows": 340,
+    "coverage_groups": 40,
+    "length_6_reads": 78572,
+    "length_12_reads": 47634,
+    "raw_mismatch_reads": 770,
+    "internal_only_reads": 95
+  }
+}

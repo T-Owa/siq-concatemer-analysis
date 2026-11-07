@@ -1,0 +1,64 @@
+{
+  "purpose": "Compact historical reference fixtures; not generated from the publication package outputs.",
+  "fixture_version": "2026-11-04",
+  "source_files": [
+    {
+      "filename": "Cy5_MH_deletion_length_analysis_20261030.zip",
+      "sha256": "b33e8f7c71961c7dc3352f9603dc00c2bded182ec36d5ec4f29f7ed58f1e7305"
+    },
+    {
+      "filename": "SIQ_Modifications_6bp_12bp_TOP5_bundle.zip",
+      "sha256": "cad044332b1ab36bd1c107c8f8f984644d98b4c426f258342b317d21e783bf76"
+    },
+    {
+      "filename": "SIQ_Deletion_TOP5_Modify0_Inhibitor(1).xlsx",
+      "sha256": "695155987bed5ee34240e6982d21c1fe7c65831b8210c5ea03a7427bbee6e276"
+    }
+  ],
+  "fixtures": [
+    {
+      "filename": "historical_all_top5.csv",
+      "sha256": "4dc652e682356f496e098f498e1737875adcec2a27eeb49d1a78d0e144118494"
+    },
+    {
+      "filename": "historical_exact_length_mh_samples.csv",
+      "sha256": "efcfcc05e04e15ee61386381baea48fb66083048723614c29aa9ddea0966bfbb"
+    },
+    {
+      "filename": "historical_group_metrics.csv",
+      "sha256": "d5191ec94d0df20a70c402dfaa00743aaa2ecd1f2a7b34b425973d4140509069"
+    },
+    {
+      "filename": "historical_length_coverage.csv",
+      "sha256": "081880fe3bd7d911d0361458889d9888f9dd1407b562a1ff5fa4ad7e77dc6009"
+    },
+    {
+      "filename": "historical_length_group_patterns.csv",
+      "sha256": "e4efd4ca5806d15b43a0fc19f00fac2e00aee9cdbff6d7c42cbeaef855635b2a"
+    },
+    {
+      "filename": "historical_length_patterns.csv",
+      "sha256": "0e2a7c39420f52d60530e7a3a1a48e898b6a42cdd29fe2c3434d7d39cf8f7df1"
+    },
+    {
+      "filename": "historical_length_sample_totals.csv",
+      "sha256": "3dc31e869e005c420b6033bc68a7263947279f2ebacef323223f9702c25ff46d"
+    },
+    {
+      "filename": "historical_mh_summary_inhibitor.csv",
+      "sha256": "4d495d84ed65f1a7fc38f1f29bc782897bb90fb9c324c9444a3f0bc90c2188e4"
+    },
+    {
+      "filename": "historical_mh_summary_modify.csv",
+      "sha256": "813f501a6234b5a34e2d42ecfe5c9dc3d92c2a859fd4f17b319ac20740300bf7"
+    },
+    {
+      "filename": "historical_sample_metrics.csv",
+      "sha256": "a39df27a91953ab86d01734897494798fb6c113ef666f676972f9c7e2d126af5"
+    },
+    {
+      "filename": "historical_standardized.csv",
+      "sha256": "eb9287b5ef220b5c56f62768f8ef3a2dab25010e82d181d8f1c30c0abb6a128d"
+    }
+  ]
+}

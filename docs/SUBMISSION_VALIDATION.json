@@ -1,0 +1,106 @@
+{
+  "date": "2026-11-04",
+  "software_version": "0.1.0",
+  "repository": "https://github.com/T-Owa/siq-concatemer-analysis",
+  "environment": {
+    "python": "3.12.14",
+    "platform": "Windows",
+    "architecture": "AMD64"
+  },
+  "scope": "Both bundled datasets reprocessed; no upstream SIQ, read merging or figure rendering rerun.",
+  "checks": {
+    "submission_siq_unit": {
+      "status": "passed",
+      "tests": 32
+    },
+    "submission_siq_reference": {
+      "status": "passed",
+      "datasets": [
+        "modify",
+        "inhibitor"
+      ],
+      "numeric_tolerance": 1e-10,
+      "integer_counts": "exact",
+      "reference": "Historical analysis files, independently checked against source SIQ workbooks",
+      "checks_by_section": {
+        "strict_mh_sample_summary": 1368,
+        "strict_mh_exclusions": 456,
+        "historical_sample_metrics": 684,
+        "historical_group_metrics": 456,
+        "exact_length_mh": 4767,
+        "all_length_top5": 3230,
+        "length_top5_length_group_patterns": 10200,
+        "length_top5_length_sample_totals": 1080,
+        "length_top5_pattern_definitions": 536,
+        "length_top5_length_coverage": 1074,
+        "length_top5_membership": 194,
+        "length_standardization": 486
+      },
+      "total_checked_values": 24531
+    }
+  },
+  "scientific_file_sha256": {
+    "config/junction.json": "aab98b078777734238ee016cfe5c5dd87f012f05f7f994e7a5082c5e1cca7812",
+    "config/pattern_catalog.csv": "6dce93c5abe3a86b3cf85518053a50e5957541bed8a48559a20dc69b4530c3e7",
+    "config/reference.fasta": "3b7d23c4f86248253ef83c3ceecded4552dcd6ab86a778d11011eade86d7c5da",
+    "data/inhibitor_events.csv.gz": "fb815dc61879d72dcfd6b8425af8ad779e555b3f604b03d03856f1cf76f125d8",
+    "data/modify_events.csv.gz": "47174e1555fa4de080092eefdc2ceec3a3c4cf65683be2d96b32da213c8db93e",
+    "data/samples.csv": "4deb6e3212903b646a63494effa0ae0d6ab05847fb35ed76333e4073ea32e158",
+    "data/source_metadata.json": "5f1cb7c677c580f7b4d696d5437c1590af0ea9ecd2f7709cb601a3c4f9df36f7",
+    "expected/fixture_provenance.json": "d930b5a33690b1344b9b270a6403a0399f4230f4a09d4a14d5dd39d1ed1fe11d",
+    "expected/historical_all_top5.csv": "4dc652e682356f496e098f498e1737875adcec2a27eeb49d1a78d0e144118494",
+    "expected/historical_exact_length_mh_samples.csv": "efcfcc05e04e15ee61386381baea48fb66083048723614c29aa9ddea0966bfbb",
+    "expected/historical_group_metrics.csv": "d5191ec94d0df20a70c402dfaa00743aaa2ecd1f2a7b34b425973d4140509069",
+    "expected/historical_length_coverage.csv": "081880fe3bd7d911d0361458889d9888f9dd1407b562a1ff5fa4ad7e77dc6009",
+    "expected/historical_length_group_patterns.csv": "e4efd4ca5806d15b43a0fc19f00fac2e00aee9cdbff6d7c42cbeaef855635b2a",
+    "expected/historical_length_patterns.csv": "0e2a7c39420f52d60530e7a3a1a48e898b6a42cdd29fe2c3434d7d39cf8f7df1",
+    "expected/historical_length_sample_totals.csv": "3dc31e869e005c420b6033bc68a7263947279f2ebacef323223f9702c25ff46d",
+    "expected/historical_mh_summary_inhibitor.csv": "4d495d84ed65f1a7fc38f1f29bc782897bb90fb9c324c9444a3f0bc90c2188e4",
+    "expected/historical_mh_summary_modify.csv": "813f501a6234b5a34e2d42ecfe5c9dc3d92c2a859fd4f17b319ac20740300bf7",
+    "expected/historical_sample_metrics.csv": "a39df27a91953ab86d01734897494798fb6c113ef666f676972f9c7e2d126af5",
+    "expected/historical_standardized.csv": "eb9287b5ef220b5c56f62768f8ef3a2dab25010e82d181d8f1c30c0abb6a128d",
+    "expected/independent_source_verification.json": "5a45b23f64e58c610d1d875759bc6ddbd4589479b1d996ae54c581a1a807935d",
+    "expected/package_verification.json": "3c3be30bf97c6f7f6f7123ffc2400fb30244d2eab9db70593c58ee1117659efc",
+    "expected/portable_annotation_verification.json": "d93eede89736f464b23b21dea21832f767d42fc3f8733b399d8b32c8df201b3d",
+    "scripts/aggregate_patterns.py": "ab20bd65ce26e524226ca4ba2ef4f0a71c9e27b800ec325a8d49277a2c543d88",
+    "scripts/analyze_junction_mh.py": "3360cf51ced1c68939119d1530f86ff446c863a8207ba686968f9c13203eab62",
+    "scripts/annotate_events.py": "59af3939336619fa167f95e93bf1dd84ac83e2510edef9a72036b492486362c0",
+    "scripts/import_siq.py": "68bff593149a5bd19e1285ed3b4e0b4862f87193029038c09326382b53cf9aa7",
+    "scripts/plot_figures.py": "dd9ae48fbbbb401208aae4c3f307ad590809193399f23e5d56d6c8ef7542ec9a",
+    "scripts/run_analysis.py": "6ba0b9ce29a7caf6d0bbf66854d440c8bc9db7a49b6cf5169f6f1fc2968c4849",
+    "scripts/summarize_events.py": "4c81ca26aeeb3ab32adf54c401a10512a6870a026a0f7b3915025c9fa000b9b5",
+    "scripts/verify_reference_results.py": "ebae2bde436d7b05fa8e1d3e9e7e98470757e3a50a14224e49f5658d3e7df6e7",
+    "tests/test_mh.py": "e3319fe71a03cf295170e37cdb0d14362f8a86b4a48c4b7a43313181b24888a0",
+    "tests/test_patterns.py": "a83170ea36082b51ab6525341a7a1cc7669f3ad0a887f1acbc9b2d0ca41e03a6",
+    "tests/test_summaries.py": "8929234231e2ba72e64ffb18f6f7f457c560c704ccbbbd2557144c9b7b3fa019"
+  },
+  "run_manifest": {
+    "package_version": "0.1.0",
+    "python_version": "3.12.14",
+    "datasets": [
+      "modify",
+      "inhibitor"
+    ],
+    "scripts_executed": [
+      "annotate_events.py",
+      "summarize_events.py",
+      "aggregate_patterns.py",
+      "annotate_events.py",
+      "summarize_events.py",
+      "aggregate_patterns.py"
+    ],
+    "config_sha256": "aab98b078777734238ee016cfe5c5dd87f012f05f7f994e7a5082c5e1cca7812",
+    "catalog_sha256": "6dce93c5abe3a86b3cf85518053a50e5957541bed8a48559a20dc69b4530c3e7",
+    "input_sha256": {
+      "samples.csv": "4deb6e3212903b646a63494effa0ae0d6ab05847fb35ed76333e4073ea32e158",
+      "modify_events.csv.gz": "47174e1555fa4de080092eefdc2ceec3a3c4cf65683be2d96b32da213c8db93e",
+      "inhibitor_events.csv.gz": "fb815dc61879d72dcfd6b8425af8ad779e555b3f604b03d03856f1cf76f125d8"
+    },
+    "scope": "Post-processing of SIQ-reported events; does not rerun read merging or SIQ."
+  },
+  "floating_point_comparison": {
+    "method": "math.isclose",
+    "relative_tolerance": 1e-10,
+    "absolute_tolerance": 1e-10
+  }
+}
